@@ -1,0 +1,29 @@
+#typewriterwaw{
+    color: #2F2E41;
+    font-weight: bold;
+}
+
+#cursorwaw{
+    animation: blink 1s linear infinite;
+}
+@keyframes blink{
+    0%{
+        opacity: 100%;
+    }
+    50%{
+        opacity: 0%;
+    }
+}
+h1{
+    font-size: 5vw;
+    font-weight: bold;
+    color: #2F2E41;
+}
+body{
+    text-align: center;
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
